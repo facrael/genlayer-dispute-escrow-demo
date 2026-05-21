@@ -1,0 +1,13 @@
+[
+  {
+    "dispute_id": "d_001",
+    "buyer_claim": "Item was not delivered",
+    "seller_claim": "Item was delivered and accepted",
+    "escrow_amount_usd": 250,
+    "evidence": [
+      {"party": "seller", "kind": "tracking", "content": "Carrier shows delivered to buyer address", "credibility": 0.9},
+      {"party": "seller", "kind": "buyer_message", "content": "Buyer confirmed receipt", "credibility": 0.8},
+      {"party": "buyer", "kind": "text", "content": "I do not remember receiving it", "credibility": 0.3}
+    ]
+  }
+]
